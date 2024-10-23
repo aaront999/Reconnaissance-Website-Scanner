@@ -12,6 +12,7 @@ def get_ip_address(url):
     except socket.gaierror:
         return {"Invalid URL or unable to resolve DNS."}
 
+# test cases
 url = "https://www.hackthissite.org/"
-print(f"IP Address of {url} is: {get_ip_address(url)}")
+print(f"IP Address of '{url}' is: {get_ip_address(url)}")
         
