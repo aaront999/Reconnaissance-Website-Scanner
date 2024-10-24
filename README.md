@@ -1,7 +1,7 @@
 ## Reconnaissance-Website-Scanner
-#### Sometimes, having to manually scan or search a website -or multiple websites- for specific data that you want can be tedious. We can fix that by automating those searches with a Python script that extracts the domain, ip address, nmap scan, and whois from a website url and store that data into txt files for readability.  
+#### Sometimes manually scanning or searching multiple websites for specific data can be tedious and time-consuming. We can fix that by automating these tasks with a Python script that extracts the domain name, IP address, performs an Nmap scan, and retrieves WHOIS information from a given website URL. The script also stores the results in text files for easy readability.
 
-### <ins>Disclaimer</ins>: It is illegal to network scan websites without permission. You must use an intentionally vulnerable website to scan. For this project, I used  https://www.hackthissite.org/ to test my scripts.
+### <ins>Disclaimer</ins>: Scanning websites without explicit permission is illegal. For this project, I used the intentionally vulnerable website https://www.hackthissite.org to test my script.
 #
 #### Programs we will be using:
 - Visual Studio Code: https://code.visualstudio.com/download
@@ -50,7 +50,7 @@
 
 ![Screenshot 2024-10-23 161150](https://github.com/user-attachments/assets/b495d52f-e332-4c0b-9289-304d94421750)
 #
-5. Luckily this script is the easiest to code. Pip install python-whois, Import os and whois. Create a function that will accept a url and use whois.whois on the input url to get the website's whois information. I was getting an error in the terminal that the output couldn't be read because it wasn't a string. So I just converted the output into a str and I got the desired output.
+5. Finally our WHOIS function. Luckily this script is the easiest to code. Pip install python-whois in our terminal, Import os and whois. Create a function that will accept a url and use whois.whois on the input url to get the website's whois information. I was getting an error in the terminal that the output couldn't be read because it wasn't a string. So I just converted the output into a str and I got the desired output.
 
 ![Screenshot 2024-10-23 161327](https://github.com/user-attachments/assets/e3eb05db-d8f1-46d3-8170-c30be0c44bbe)
 ![Screenshot 2024-10-23 161441](https://github.com/user-attachments/assets/3b878a2f-1ab7-40e6-8646-32237ab755cd)
