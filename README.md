@@ -11,8 +11,12 @@
 #### Python Library Documentation:
 - import os (operating system): https://docs.python.org/3/library/os.html
 - pip install tld (Top Level Domain): https://pypi.org/project/tld/
-- import socket: https://pythontic.com/modules/socket/gethostname
-- import subprocess: https://docs.python.org/3/library/subprocess.html
+- import socket: 
+    - https://pythontic.com/modules/socket/gethostname
+    - https://www.geeksforgeeks.org/socket-programming-python/#
+- import subprocess:
+    - https://docs.python.org/3/library/subprocess.html
+    - https://python101.pythonlibrary.org/chapter19_subprocess.html
 - pip install python-whois: https://pypi.org/project/python-whois/
 #
 1. First we need to import os so that we can interact with the operating system to read and write files. Next we will create 2 core functions that we will be using later which will be create_dir to create a directory and if that directory does not exist, one will be created. Our second function write_file will open the file in write mode and will store our collected data into that file.
@@ -46,7 +50,7 @@
 
 ![Screenshot 2024-10-23 161252](https://github.com/user-attachments/assets/53fbea49-ac4b-48b9-8832-cf73a3b18fe9)
 #
-- Import subprocess and create a function that accepts 2 parameters 'options' which will be 1 or more Nmap commands the user will input, and the ip address. I ran my code to see if my code runs as expected.
+4.1 The subprocess module gives us the ability to start applications/programs that can pass arguments to them from Python. Let's import subprocess and create a function that accepts 2 parameters 'options' which will be 1 or more Nmap commands the user will input, and the ip address. I ran my code to see if my code runs as expected.
 
 ![Screenshot 2024-10-23 161150](https://github.com/user-attachments/assets/b495d52f-e332-4c0b-9289-304d94421750)
 #
