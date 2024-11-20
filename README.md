@@ -1,5 +1,7 @@
 ## Reconnaissance-Website-Scanner
-#### Sometimes manually scanning or searching multiple websites for specific data can be tedious and time-consuming. We can fix that by automating these tasks with a Python script that extracts the domain name, IP address, performs an Nmap scan, and retrieves WHOIS information from a given website URL. The script also stores the results in text files for easy readability.
+
+### Project Overview:
+Sometimes manually scanning or searching multiple websites for specific data can be tedious and time-consuming. We can fix that by automating these tasks with a Python script that extracts the domain name, IP address, performs an Nmap scan, and retrieves WHOIS information from a given website URL. The script also stores the results in text files for easy readability.
 
 ### <ins>Disclaimer</ins>: Scanning websites without explicit permission is illegal. For this project, I used the intentionally vulnerable website https://www.hackthissite.org to test my script.
 #
